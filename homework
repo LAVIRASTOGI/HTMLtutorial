@@ -1,12 +1,76 @@
-
-first class- 
+first class-
 
 second class--
+
 1. paragraph
-2.heading tags(h1- h6)
-3.formatting text - use 
-4.dev tool (inspect)
-5.comments
-6 inline and block elements 
-7 Nesting of all elements 
-8.horizontal tag
+   2.heading tags(h1- h6)
+   3.formatting text - use
+   4.dev tool (inspect)
+   5.comments
+   6 inline and block elements
+   7 Nesting of all elements
+   8.horizontal tag
+
+third class-
+list - ordered and unordered
+anchor tags-
+
+fourth class-
+iframe (youtube,website)
+image (internal and external links)
+
+fifth class -
+
+tables,
+semantic elements
+emmet shortcut
+
+ASSIGNMENT no 1
+HTML Topics to Include
+
+1. Basic Structure of an HTML Document
+   Add <!DOCTYPE html> at the top.
+   Include the <html>, <head>, and <body> tags.
+   Provide a proper title using <title> in the <head> section.
+
+2. Headings and Paragraphs
+   Use all six heading tags (<h1> to <h6>) with appropriate content.
+   Add at least three paragraphs using <p> tags.
+
+3. Text Formatting
+   Use tags like <b>, <i>, <u>, <small>, <mark>, <strong>, and <em> within the paragraphs.
+
+4. Lists
+   Create an ordered list (<ol>) of your favorite hobbies.
+   Create an unordered list (<ul>) of five programming languages.
+   Add a nested list inside one of the unordered list items.
+
+5. Links
+   Add an external link to a search engine (e.g., Google).
+   Add an internal link that scrolls to a section on the same page (use <a href="#section-id">).
+
+6. Tables
+   Create a table displaying a student’s marks in 3 subjects.
+   Include these elements:
+   Table heading (<th>).
+   Rows and columns using <tr> and <td>.
+   A caption for the table.
+
+7. Images
+   Add an image from your computer (use the <img> tag with the src attribute).
+   Add an image from a URL.
+   Provide alt text for all images.
+   Adjust the image size using the width and height attributes.
+
+8. Div and Span
+   Use a <div> to create a section with a background color and some text.
+   Use <span> to highlight specific words in the text.
+
+9. Inline and Block Elements
+   Demonstrate at least three block-level elements (e.g., <div>, <p>, <h1>).
+   Demonstrate at least three inline elements (e.g., <span>, <b>, <i>).
+
+10. Comments
+    Add comments to explain each section of your HTML file.
+
+11. Should make a proper website type design using all semantic elements.
