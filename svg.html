@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- svg -->
+    <!-- <line> - Draw a line
+        The <line> element is used to draw straight lines between two points.
+
+        Attributes:
+        x1, y1: The starting point of the line.
+        x2, y2: The ending point of the line.
+        stroke: The color of the line. -->
+    <svg width="200" height="200">
+      <line x1="0" x2="100" y1="0" y2="10" stroke="red" stroke-width="2" />
+    </svg>
+
+    <!-- circle -->
+    <!-- The <circle> element is used to create circles. It requires the cx (center x), cy (center y), and r (radius) attributes.
+
+        Attributes:
+        cx, cy: The coordinates for the center of the circle.
+        r: The radius of the circle.
+        fill: The fill color of the circle.
+        stroke: The color of the border of the circle. -->
+    <svg width="200" height="200" style="border: 1px seagreen solid">
+      <circle
+        cx="100"
+        cy="100"
+        r="40"
+        fill="blue"
+        stroke="black"
+        stroke-width="2"
+      />
+    </svg>
+
+    <!-- rectangle -->
+
+    <!-- <rect> - Draw a rectangle
+        The <rect> element is used to create rectangles or squares.
+        
+        Attributes:
+        x, y: The top-left corner coordinates of the rectangle.
+        width, height: The dimensions of the rectangle.
+        rx, ry: The radius of the corners for rounded rectangles.
+        fill, stroke: Same as <circle>. -->
+
+    <svg width="200" height="200">
+      <rect
+        x="50"
+        y="50"
+        width="100"
+        height="50"
+        fill="green"
+        stroke="black"
+        stroke-width="2"
+      />
+    </svg>
+
+    <!-- <text> - Display text
+        The <text> element is used to add text inside an SVG image.
+        
+        Attributes:
+        x, y: The position of the text.
+        font-family, font-size: Controls the font properties.
+        fill: The color of the text. -->
+
+    <svg width="200" height="200">
+      <text x="10" y="50" font-family="Arial" font-size="24" fill="red">
+        Hello SVG
+      </text>
+    </svg>
+
+    <!-- polygon -->
+    <svg>
+      <polygon
+        points="60,40 200,20 300,120 20,120,400,50"
+        fill="#fd5f5f"
+        stroke="black"
+      ></polygon>
+    </svg>
+
+    <br />
+    <!-- canvas  --  to draw graphics on fly -->
+    <canvas
+      id="myCanvas"
+      width="400"
+      height="400"
+      style="border: 1px black solid"
+    ></canvas>
+    <!--  Drawing Shapes on the Canvas -->
+    <script>
+      var canvas = document.getElementById("myCanvas");
+      var ctx = canvas.getContext("2d");
+
+      // Draw filled rectangle
+      ctx.fillStyle = "blue";
+      ctx.fillRect(50, 50, 150, 100);
+
+      // Draw outlined rectangle
+      ctx.strokeStyle = "red";
+      ctx.lineWidth = 5;
+      ctx.strokeRect(200, 50, 150, 100);
+
+      // Draw a circle
+      ctx.beginPath();
+      ctx.arc(200, 300, 50, 0, 2 * Math.PI);
+      ctx.fillStyle = "green";
+      ctx.fill();
+      ctx.strokeStyle = "black";
+      ctx.stroke();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+  </head>
+  <body>
+    <!-- audio  play audio we can specify types-->
+    <!-- doesn't support autoplay  -->
+    <audio controls autoplay>
+      <!-- <audio controls autoplay loop> -->
+      <source src="./voice.wav" type="audio/wav" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <br />
+    <!-- video 
+    video is muted it autoplays -->
+    <!-- doesn't support autoplay  simple-->
+    <video controls width="400" height="400" autoplay loop>
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+  </body>
+</html>
